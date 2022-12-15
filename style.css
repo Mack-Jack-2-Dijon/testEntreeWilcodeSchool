@@ -1,0 +1,202 @@
+* {
+  margin: 5;
+  padding: 10;
+  border: none;
+}
+
+#main{
+  max-width:1280px;
+  min-height:100%;
+  margin:0 auto;
+  position:relative;
+}
+
+body {
+  background-color: rgba(3, 3, 3, 0.75);
+  text-align:center;
+}
+
+/* header*/
+  /* source : http://www.w3bai.com/fr/css/css_navbar.html#gsc.tab=0 */
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #0000FF;
+      font-size: 2.8em;
+      padding-top:0px;
+      height:80px;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #111;
+  }
+/*fin de header*/
+
+footer{
+  background:#000000;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding-top:10px;
+  height:20px;
+  font-family: Georgia, serif;
+  font-size : 50%;
+  color : #FFFFFF
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+
+
+h1 {
+  padding: 45px 0px 0px 0px;
+    font-size: 60px;
+    font-family: "modern", Arial;
+    animation: color-change 3s infinite;
+    height: auto;
+    margin-top: 100px;
+
+}
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+
+h2 {
+font-family: system-ui, serif;
+  font-size : 200%;
+  color : #FFFFFF
+}
+
+h3 {
+  font-family: 'helvetica neue', helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgba(2, 7, 255, 0.6);
+  background: rgb(255, 255, 255);
+  color: rgba(0,0,200,0.6);
+  box-shadow: 1px 1px 2px rgba(3, 3, 241, 0.4);
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  cursor:pointer;
+}
+
+p {
+font-family: system-ui, serif;
+color: #00FF00  ;
+}
+
+section {
+  padding: 20px;
+}
+
+#welcome {
+  height: 400px;
+  background-image: url("assets/lackir.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+table {
+  font-family: system-ui, serif;
+  color: #00FF00;
+  table-layout: fixed;
+  width: 90%;
+  border-collapse: separate;
+  border: 5px solid grey;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+td 
+{
+    border: 1px solid black;
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+
+/*sources : https://believemy.com/r/creer-un-compteur-de-caracteres-dans-un-input*/
+label {
+  position: relative;
+  font-family: system-ui, serif;
+color: #00FF00;
+}
+
+input {
+  color: #F5F8FF;
+  background: transparent;
+  font-size: 1.4rem;
+  border-bottom: 1.5px solid rgba(245, 248, 255, .4);
+  padding: .8rem 2rem .8rem 0;
+  outline: none;
+  font-style=vertical-align: inherit;
+
+  }
+
+
+
+
+textarea {
+  font-size: 1.4rem;
+  padding: .8rem 2rem .8rem 0;
+  background: transparent;
+  color: #F5F8FF;
+  border-bottom: 1.5px solid rgba(245, 248, 255, .4);
+  transition: all .4s;
+  outline: none;
+
+  
+  min-width:600px;
+  max-width:200px;
+  height:100000;
+  line-height:2.5
+  font-style=vertical-align: inherit;
+}
+
+
+
+
+
+input[name="submit"] {
+  ont-family: 'helvetica neue', helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgba(0,0,200,0.6);
+  background: #FFFFFF;
+  /*police*/
+  color: #0000FF;
+  box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  cursor:pointer;
+  }
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>&#9997 Contact the Royal Kingdom &#9997</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Content goes here-->
+<header>
+    <ul>
+    <li><a href="https://jacquesthamee.photo/" target="_blank" title="New window"><img src="assets/logo.png" alt="logo" width="70" /></a></li>
+    <li><a href="index.html">About</a></li>
+    <li><a href="royal-family.html">Royal Family</a></li>
+    <li><a href="assets.html">Royal Assets</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </header>
+  <footer>
+    "Le défi technique" by : Wildcodeschool to be web developer to e.SNCF Solution by formation Up to Dev - Photo credits : Jacques Thamée - Web disigne Pollux of Wildcodeschool - Web developer : Jacques Thamée of SNCF RESEAU / EIC BOURGOGNE FRANCHE COMTE / GEVREY VP / PERRIGNY LES DIJON RTE DE DOMOIS
+  </footer>
+    
+    <h2>
+      Fill in the form below to contact the Royal Kingdom
+    </h2>
+    
+    <!-- source formulaire : https://argo.wildcodeschool.com/expeditions/precourse/quests/1258 & https://developer.mozilla.org/fr/docs/Web/HTML/Element/Textarea/--> 
+    <!-- sources smiley : https://www.w3schools.com/charsets/ref_emoji_smileys.asp/-->
+   
+   <form id="contactForm">
+      <!--Name-->
+        <label for="Name">Name :
+        <input type="text" id="name" name="name" value="wildcodeschool" maxlength=15
+        /><br>
+        </label><br>
+
+      <!--email attention laisser à la ligne pour que le script fontionne-->
+        <label for="Email">&#9993 Email :
+        <input type="email" 
+        id="email" name="email" 
+        value="lyon@wildcodeschool.com" 
+        maxlength=255
+        /><br>
+        </label><br>
+
+      <!--message-->
+      <!-- source : https://developer.mozilla.org/fr/docs/Web/HTML/Element/Textarea -->
+      <label for="Message">&#9997 Message :
+      </label><br>
+      <textarea type="text" id="Message" name="Message">"Codez comme si la personne qui finit par maintenir votre code est un psychopathe violent qui sait où vous vivez." - Jeff Atwood</textarea>
+      
+      <p></p>
+
+       <!--bouton-->
+      <input type="submit" value="submit" name="submit" />
+    </form>
+
+
+
+
+    <!-- Connect the Javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
